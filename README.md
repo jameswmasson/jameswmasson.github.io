@@ -1,2 +1,0 @@
-# jameswmasson.github.io
-Blog
