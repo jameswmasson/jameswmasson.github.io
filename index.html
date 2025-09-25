@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>James's Essays</h1>
+        </header>
+
+        <main>
+            <article class="post">
+                <h1><a href="posts/mbf.html">Man's Best Friend</a></h1>
+                <time datetime="01-05-25">January 5, 2025</time>
+                <p>My first car and worst job</p>
+            </article>
+            <article class="post">
+                <h1><a href="posts/males.html">A Tale of Two Males</a></h1>
+                <time datetime="11-21-24">November 11, 2024</time>
+                <p>Sigma male, alpha male, omega male???</p>
+            </article>
+            <article class="post">
+                <h1><a href="posts/bec.html">Bacon-egg-and-cheese</a></h1>
+                <time datetime="10-05-24">October 5, 2024</time>
+                <p>home and sandwiches</p>
+            </article>
+            <article class="post">
+                <h1><a href="posts/drivers-seat.html">In the Driver's Seat</a></h1>
+                <time datetime="09-18-24">September 18, 2024</time>
+                <p>or: how my camp got shut down forever</p>
+            </article>
+        </main>
+
+        <footer style="margin-top:2rem; color:#666; font-size:.9rem;">
+           © <span id="y"></span> James Masson
+        </footer>
+
+        <script>
+            document.getElementById('y').textContent = new Date().getFullYear()
+        </script>
+    </body>
+</html>
