@@ -26,8 +26,13 @@ h1, h2, h3, h4 {
  }
 
 h1 {
-    color: #32213A;
+    color: #121113;
 }
+
+h2 {
+  color: #222725;
+}
+
 
 a {
     color: #383b53;
@@ -200,4 +205,8 @@ time {
 
 .post {
   border-top: 1px dashed #383b53;
+}
+
+nav a{
+  color: #a98743;
 }
