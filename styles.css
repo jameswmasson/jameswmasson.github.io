@@ -22,11 +22,15 @@ html {
 h1, h2, h3, h4 {
     margin: 2.5rem 0 1.5rem 0;
     line-height: 1.25;
-    color: #333;
+   
  }
 
+h1 {
+    color: #32213A;
+}
+
 a {
-    color: #fa6432;
+    color: #383b53;
     text-decoration: none;
  }
 a:hover, a:focus, a:active {
@@ -73,7 +77,7 @@ img {
 blockquote {
     padding-left: 1em;
     font-style: italic;
-    border-left: solid 1px #fa6432;
+    border-left: solid 1px #383b53;
  }
 
 table {
@@ -188,4 +192,8 @@ header a + a {
     vertical-align: middle;
     padding-right: 2rem;
     color: grey;
+}
+
+time {
+    color: #66717e;
 }
